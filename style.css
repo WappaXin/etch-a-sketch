@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#gridSize{
+    height: 25px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+#clear{
+    height: 25px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.container {
+    background-color: white;
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.childContainer{
+    display: flex;
+    flex: 1;
+}
+
+.children {
+    border: 1px solid rgb(0, 0, 0);
+    flex: 1;
+}
