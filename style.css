@@ -18,12 +18,10 @@ body {
 }
 .container {
     background-color: white;
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    flex: 0 0 auto;
 }
 
 .childContainer{
@@ -32,6 +30,5 @@ body {
 }
 
 .children {
-    border: 1px solid rgb(0, 0, 0);
     flex: 1;
 }
